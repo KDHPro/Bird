@@ -4,12 +4,7 @@ using UnityEngine;
 
 public class Wall : MonoBehaviour
 {
-    private float speed;
-
-    private void Awake()
-    {
-        speed = Random.Range(1.5f, 2f);
-    }
+    public float speed = 2f;
 
     private void FixedUpdate()
     {
